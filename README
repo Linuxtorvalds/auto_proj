@@ -1,0 +1,8 @@
+1.autoscan
+2.mv configure.scan configure.in && vim configure.in
+3.aclocal
+4.autoconf
+5.vim ./src/Makefile.am
+5.vim ./Makefile.am
+6.automake –add-missing
+7.configure
